@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Test7.txt">
+    <annotation>
+        <mention id="EHOST_Instance_102" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="239" end="243" />
+        <spannedText>1.08</spannedText>
+        <creationDate>Wed Oct 17 18:18:36 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_107">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Right" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_102">
+        <hasSlotMention id="EHOST_Instance_107" />
+        <mentionClass id="ABI_Value">1.08</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_103" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="215" end="235" />
+        <spannedText>Ankle brachial index</spannedText>
+        <creationDate>Wed Oct 17 18:18:40 MDT 2018</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_103">
+        <mentionClass id="ABI_Concept">Ankle brachial index</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_104" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="239" end="243" />
+        <spannedText>1.08</spannedText>
+        <creationDate>Wed Oct 17 18:20:35 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_108">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Right" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_104">
+        <hasSlotMention id="EHOST_Instance_108" />
+        <mentionClass id="ABI_Value">1.08</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_105" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="479" end="483" />
+        <spannedText>0.94</spannedText>
+        <creationDate>Wed Oct 17 18:21:01 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_109">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Left" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_105">
+        <hasSlotMention id="EHOST_Instance_109" />
+        <mentionClass id="ABI_Value">0.94</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_106" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="455" end="475" />
+        <spannedText>Ankle brachial index</spannedText>
+        <creationDate>Wed Oct 17 18:21:05 MDT 2018</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_106">
+        <mentionClass id="ABI_Concept">Ankle brachial index</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,3 @@
+#Common Template, Single Pattern -
+#AAI <RIGHT VALUE> <LEFT VALUE>
+<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_score/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>

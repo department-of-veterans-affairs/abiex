@@ -1,0 +1,12 @@
+dorsalis\s*pedis
+posterior\s*tibial
+posterior\s*tibial\s*artery
+dorsalis\s*pedis\s*artery
+dors\s*pedis
+\(dp\).?
+\(pt\).?
+dp
+dp\s*and\s*pt
+at\s*dp
+at\s*pt
+pt

@@ -1,0 +1,12 @@
+(?<=(:|\b))(0|00|01|1)\.\d{0,2}
+(?<=(:|\b))(0|00|01|1)\.\d{0,2}-(0|00|01|1)\.\d{0,2}
+\.\d{1,2}
+#\bone
+\b1\b\.?
+\d\d\d?\/\d\d\d?
+zero
+unobtainable
+not\s*detectable
+unable\s*to\s*get
+>1
+<1

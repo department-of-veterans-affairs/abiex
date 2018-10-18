@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Test3.txt">
+    <annotation>
+        <mention id="EHOST_Instance_133" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="161" end="164" />
+        <spannedText>ABI</spannedText>
+        <creationDate>Wed Oct 17 18:24:41 MDT 2018</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_133">
+        <mentionClass id="ABI_Concept">ABI</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_134" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="168" end="172" />
+        <spannedText>0.50</spannedText>
+        <creationDate>Wed Oct 17 18:24:43 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_137">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Right" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_134">
+        <hasSlotMention id="EHOST_Instance_137" />
+        <mentionClass id="ABI_Value">0.50</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_135" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="183" end="186" />
+        <spannedText>ABI</spannedText>
+        <creationDate>Wed Oct 17 18:24:46 MDT 2018</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_135">
+        <mentionClass id="ABI_Concept">ABI</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_136" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="190" end="194" />
+        <spannedText>0.83</spannedText>
+        <creationDate>Wed Oct 17 18:24:48 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_138">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Left" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_136">
+        <hasSlotMention id="EHOST_Instance_138" />
+        <mentionClass id="ABI_Value">0.83</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

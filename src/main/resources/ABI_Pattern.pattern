@@ -1,0 +1,49 @@
+#First set of patterns looks for instances of a laterality found prior to the score.
+#laterality score
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/><!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>,?
+#L : .01
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#RT ARM 132 PT 125 DP 72 abi .91
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#L : DP .49
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#L DP .3
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#L DP > .3
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#L .48
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#L ABI .48
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*\(<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\)
+# Left, ABI 0.5
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>,\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#LEFT posterior tibial artery: Pressure is 118, index is 0.83
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*,?\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*,?\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>,?\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>,?\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#Right DP, PT, ABI .5
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#Right: ABI is 1.32
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#Right: ABI 1.32
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#r 93 0.55
+#added 03-16-2018
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*\d\d\d?\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+# Brach DP PT ABI
+#r 93 50 0.55
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*\d\d\d?\s*\d\d\d?\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*\d\d\d?\s*\d\d\d?\s*\d\d\d?\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#ABI on the right was 0.65
+<gov.va.vinci.abi.types.AbiConcept/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#ABI Laterality Score
+<gov.va.vinci.abi.types.AbiConcept/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#ABI on LEFT of 0.53
+<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>

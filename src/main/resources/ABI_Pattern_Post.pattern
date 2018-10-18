@@ -1,0 +1,12 @@
+#Instances of laterality found post ABI score
+#ABI of .85 in left
+<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>
+<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>
+<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/><!target><gov.va.vinci.abi.types.Laterality/><!target/>
+<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>
+#.48 L
+#Restrict this one from Newline
+#\h(horizontal whitespace, not newline)
+<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\h*<!target><gov.va.vinci.abi.types.Laterality/><!target/>
+#ABI 0.7 on the Left
+<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!target><gov.va.vinci.abi.types.Laterality/><!target/>

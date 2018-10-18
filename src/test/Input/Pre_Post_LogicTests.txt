@@ -1,0 +1,51 @@
+=======================
+ABI of 0.48 on the Left
+AbI of .53 on the Right
+
+=======================
+
+
+
+=======================
+ABI of 0.48 on Left
+AbI of .53 on  Right
+
+=======================
+
+ ABI INDEXES
+
+ 1. RIGHT
+    U. THIGH: .36
+    L. THIGH: .30
+    CALF:     .42
+    ANKLE-PT: .48
+    ANKLE-DP: 0.53
+
+ 2. LEFT
+    U. THIGH:.92
+    L. THIGH:.86
+    CALF:1.04
+    ANKLE-PT:.53
+    ANKLE-DP:.48
+
+
+=======================
+ABI R L
+0.48 0.53
+
+=======================
+
+
+
+=======================
+ABI of 0.48 on the Left
+AbI of .53 on the Right
+
+=======================
+
+
+=======================
+ABI of 0.48 on the Left
+AbI of .53 on the Right
+
+=======================

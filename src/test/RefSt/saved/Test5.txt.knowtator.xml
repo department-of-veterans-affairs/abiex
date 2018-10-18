@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Test5.txt">
+    <annotation>
+        <mention id="EHOST_Instance_118" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="99" end="119" />
+        <spannedText>ankle brachial index</spannedText>
+        <creationDate>Wed Oct 17 18:22:59 MDT 2018</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_118">
+        <mentionClass id="ABI_Concept">ankle brachial index</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_119" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="123" end="127" />
+        <spannedText>0.82</spannedText>
+        <creationDate>Wed Oct 17 18:23:02 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_121">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Right" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_119">
+        <hasSlotMention id="EHOST_Instance_121" />
+        <mentionClass id="ABI_Value">0.82</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_120" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="145" end="148" />
+        <spannedText>1.1</spannedText>
+        <creationDate>Wed Oct 17 18:23:21 MDT 2018</creationDate>
+    </annotation>
+    <stringSlotMention id="EHOST_Instance_122">
+        <mentionSlot id="Laterality" />
+        <stringSlotMentionValue value="Left" />
+    </stringSlotMention>
+    <classMention id="EHOST_Instance_120">
+        <hasSlotMention id="EHOST_Instance_122" />
+        <mentionClass id="ABI_Value">1.1</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

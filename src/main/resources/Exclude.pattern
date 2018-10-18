@@ -1,0 +1,14 @@
+<gov.va.vinci.abi.types.Exclude/>
+<gov.va.vinci.abi.types.Exclude/>\s*<gov.va.vinci.abi.types.ABI_score/>
+<gov.va.vinci.abi.types.Exclude/>:?\s*<gov.va.vinci.abi.types.Laterality/>
+<gov.va.vinci.abi.types.Laterality/>\s*<gov.va.vinci.abi.types.Exclude/>
+<gov.va.vinci.abi.types.Exclude/>:?\s*<gov.va.vinci.abi.types.AbiConcept/>
+<gov.va.vinci.abi.types.Exclude/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiConcept/>
+<gov.va.vinci.abi.types.AbiConcept/> *<gov.va.vinci.abi.types.Exclude/>
+<gov.va.vinci.abi.types.ABI_score/> *((/|x|-) *)?<gov.va.vinci.abi.types.Exclude/>
+#<gov.va.vinci.abi.types.Exclude/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.AbiPattern/>
+#Date <Pattern> <Pattern>
+#<gov.va.vinci.abi.types.Exclude/>\s*<gov.va.vinci.abi.types.AbiPattern/>\s*<gov.va.vinci.abi.types.AbiPattern/>
+#<gov.va.vinci.abi.types.AbiPattern/>\s*<gov.va.vinci.abi.types.Exclude/>
+#Specific Reflex Template:
+<gov.va.vinci.abi.types.Laterality/>\s*1\s*(2\+?|1)\s*(2\+?|1)

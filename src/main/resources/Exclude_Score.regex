@@ -1,0 +1,39 @@
+#Exclusion for scores only
+#Mostly different date formats or numbers greater than possible with ABI
+\b\d{3,}\b,
+\d\d?\d?mm
+\d\d?\d?cm
+#A questionable Exclusion
+#\b\d\d\d\b
+\+\s?1
+1\+
+1/4
+[2-9]\.\d\d?
+\d\d\.\d\d?
+\d\d\d.\d\d?
+\d*\.?\d*cm
+\d*\.?\d*mm\b
+\d\s*cm
+\d-\d\s*cm
+1\.\s
+\b1\)
+##Consider moving dates back to general exclude.  testing Score exclusion right now.
+#dates
+#07/16/06
+\d(\d)?(\\|-|/)\d(\d)?(\\|-|/)\d(\d)?
+#07/16/2006
+\d(\d)?(\|-|/)\d(\d)?(\|-|/)\d\d\d\d
+#07/2006
+\d\d(\|-|/)\d\d\d\d
+#1-9/\d\d
+\b0?[1-9](\|-|/)\d\d?\d?\d?
+\b\d\d(\|-|/)0?[1-9]\b
+#11/18 Digits in teens
+\b1\d((\|-|/))1\d\b
+#12-07
+\b[10-12](\|-|/)\d\d\b
+\b\d\d(\|-|/)[10-12]\b
+#in 07/26
+in\s*\d\d(\|-|/)\d\d
+#dates ^^
+1-2\+

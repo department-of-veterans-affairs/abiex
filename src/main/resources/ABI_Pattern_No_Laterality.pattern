@@ -1,0 +1,14 @@
+#class IV ABI
+<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>\h*<gov.va.vinci.abi.types.AbiConcept/>
+#ABI of 2
+<gov.va.vinci.abi.types.AbiConcept/>\s*<gov.va.vinci.abi.types.ABI_word/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+\[\s*x\s*\] \s*Stable ABI class\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#ABI 1
+<gov.va.vinci.abi.types.AbiConcept/>\s*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#ankle-dp 58mmHG 1.2
+<gov.va.vinci.abi.types.ABI_word/>\s*<gov.va.vinci.abi.types.ABI_anatomy/>\s*\d{1,3}\s*mmhg\h*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+# DP .35
+<gov.va.vinci.abi.types.ABI_anatomy/>\h*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
+#DP: .35
+#Removed New line for horizontal only(Too Many FP)
+<gov.va.vinci.abi.types.ABI_anatomy/>\h*<gov.va.vinci.abi.types.ABI_word/>\h*<!anchor><gov.va.vinci.abi.types.ABI_score/><!anchor/>
