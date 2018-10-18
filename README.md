@@ -1,5 +1,8 @@
 ## Index extraction system
 
+If using the system, please cite:
+Alba PR, Duvall SL, Norvell DC, Moore KP, Czerniecki JM, Patterson OV. **Ankle Brachial Index Extraction System**. In: AMIA Annu Symp Proc. 2018. 
+
 The system is based on Leo architecture extending UIMA AS.  For more info on Leo see [ http://department-of-veterans-affairs.github.io/Leo/userguide.html ]
 To use the system:
   1. Follow the instructions to install and configure UIMA AS Steps 2.1-2.9 on page [ http://department-of-veterans-affairs.github.io/Leo/userguide.html#/a2_Installation_and_Configuration_of_Leo-Example ] .
