@@ -1,7 +1,8 @@
 ## Index extraction system
 
 If using the system, please cite:
-Alba PR, Duvall SL, Norvell DC, Moore KP, Czerniecki JM, Patterson OV. **Ankle Brachial Index Extraction System**. In: AMIA Annu Symp Proc. 2018. 
+
+  Alba PR, Duvall SL, Norvell DC, Moore KP, Czerniecki JM, Patterson OV. **Ankle Brachial Index Extraction System**. In: AMIA Annu Symp Proc. 2018. 
 
 The system is based on Leo architecture extending UIMA AS.  For more info on Leo see [ http://department-of-veterans-affairs.github.io/Leo/userguide.html ]
 To use the system:
